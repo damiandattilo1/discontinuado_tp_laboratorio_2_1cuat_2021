@@ -11,7 +11,7 @@ namespace TestUnitarios
         public void IgualdadMicroondas_Ok()
         {
             Microondas m1 = new Microondas(5555, EficienciaEnergetica.A, ETamanio.Chico);
-            Microondas m2 = new Microondas(7777, EficienciaEnergetica.B, ETamanio.Chico);
+            Microondas m2 = new Microondas(5555, EficienciaEnergetica.A, ETamanio.Chico);
 
             bool res = m1 == m2;
 

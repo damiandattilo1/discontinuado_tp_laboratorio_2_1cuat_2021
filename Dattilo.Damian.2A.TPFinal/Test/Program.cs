@@ -34,7 +34,7 @@ namespace Test
 
             try
             {
-                ca.Agregar(ac1);
+                ca.Agregar(ac1);   // SE AGREGAN LOS OBJETOS A LA LISTA
                 ca.Remover(ac6);
                 ca.Agregar(ac2);
                 ca.Agregar(ac3);
@@ -53,12 +53,12 @@ namespace Test
                 Console.WriteLine(e.Message);
             }
 
-            Console.WriteLine(ca);
+            Console.WriteLine(ca);  //SE MUESTRAN LAS LISTAS POR PANTALLA
             Console.WriteLine(cm);
             
             try
             {
-                using (StreamWriter sw = new StreamWriter("text2.txt"))  // ejecutable
+                using (StreamWriter sw = new StreamWriter("text2.txt"))  // SE GRABA EN EL ARCHIVO DE TEXTO
                 {
                     sw.WriteLine("Archivo de texto\n");
                     sw.WriteLine(ca);
@@ -73,7 +73,7 @@ namespace Test
 
             try
             {
-                using (StreamReader sr = new StreamReader("text2.txt"))
+                using (StreamReader sr = new StreamReader("text2.txt"))  // SE LEE DESDE EL ARCHIVO DE TEXTO Y SE MUESTRA POR PANTALLA
                 {
                     String linea;
                     while((linea = sr.ReadLine()) != null)

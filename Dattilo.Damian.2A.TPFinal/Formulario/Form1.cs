@@ -42,7 +42,7 @@ namespace Formulario
 
         private void button1_Click(object sender, EventArgs e)
         {
-            EficienciaEnergetica auxEficiencia1;
+           /* EficienciaEnergetica auxEficiencia1;
             EficienciaEnergetica auxEficiencia2;
 
             ETamanio auxTam1;
@@ -51,13 +51,13 @@ namespace Formulario
             ETipo auxTipo1;
             ETipo auxTipo2;
 
-            bool auxClase;
+            bool auxClase;*/
 
             if (String.IsNullOrWhiteSpace(elegirClase.Text) || String.IsNullOrWhiteSpace(id1.Text) || string.IsNullOrWhiteSpace(id2.Text) || String.IsNullOrWhiteSpace(eficiencia1.Text) || String.IsNullOrWhiteSpace(eficiencia2.Text) || String.IsNullOrWhiteSpace(caracteristica1.Text) || String.IsNullOrWhiteSpace(caracteristica2.Text))
             {
                 MessageBox.Show("ERROR: Ingrese valores");
             }
-            else
+           /* else
             {
                 if(eficiencia1 == "A")
                 {
@@ -138,7 +138,7 @@ namespace Formulario
                         MessageBox.Show("Los Microondas son iguales");
                     }
                 }
-            }
+            }*/
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
