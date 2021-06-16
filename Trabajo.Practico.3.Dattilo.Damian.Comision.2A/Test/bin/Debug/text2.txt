@@ -1,0 +1,37 @@
+Archivo de texto
+
+Capacidad Maxima = 3
+
+Listado de productos aprobados:
+
+ID: 1234
+Eficiencia energetica: A
+Tamanio: FrioCalor
+El producto esta aprobado
+
+ID: 5555
+Eficiencia energetica: D
+Tamanio: Calor
+El producto necesita ser revisado
+
+ID: 8888
+Eficiencia energetica: D
+Tamanio: Frio
+El producto necesita ser revisado
+
+
+Capacidad Maxima = 2
+
+Listado de productos aprobados:
+
+ID: 3333
+Eficiencia energetica: C
+Tamanio: Chico
+El producto necesita ser revisado
+
+ID: 4215
+Eficiencia energetica: A
+Tamanio: Mediano
+El producto esta aprobado
+
+
